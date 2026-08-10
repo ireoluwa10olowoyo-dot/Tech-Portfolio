@@ -6,7 +6,7 @@ import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 import Achievements from './Components/Achievements';
 import Contact from './Components/Contact'
-
+import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
 
 
 function App() {
@@ -21,7 +21,17 @@ function App() {
     <Experience/>
     <Achievements/>
     <Contact/>
-      
+    <BrowserRouter>
+    <Routes>
+      <Route path="/Hero" element={<Navigate to="/Hero" replace/>}/>
+      <Route path="/AboutMe" element="/AboutMe"/>
+      <Route path="/Projects" element="/Projects"/>
+      <Route path="/Skills" element="/Skills"/>
+      <Route path="/Experience" element="/Experience"/>
+      <Route path="/Achievements" element="/Achievements"/>
+      <Route path="/Contact" element="/Contact"/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
