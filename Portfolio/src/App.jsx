@@ -14,22 +14,16 @@ function App() {
 
   return (
     <>
-    <Hero/>
-    <AboutMe/>
-    <Projects/>
-    <Skills/>
-    <Experience/>
-    <Achievements/>
-    <Contact/>
     <BrowserRouter>
     <Routes>
-      <Route path="/Hero" element={<Navigate to="/Hero" replace/>}/>
-      <Route path="/AboutMe" element="/AboutMe"/>
-      <Route path="/Projects" element="/Projects"/>
-      <Route path="/Skills" element="/Skills"/>
-      <Route path="/Experience" element="/Experience"/>
-      <Route path="/Achievements" element="/Achievements"/>
-      <Route path="/Contact" element="/Contact"/>
+      <Route path="/" element={<Navigate to="/Hero" replace/>}/>
+      <Route path="/Hero" element={<Hero/>}/>
+      <Route path="/AboutMe" element={<AboutMe/>}/>
+      <Route path="/Projects" element={<Projects/>}/>
+      <Route path="/Skills" element={<Skills/>}/>
+      <Route path="/Experience" element={<Experience/>}/>
+      <Route path="/Achievements" element={<Achievements/>}/>
+      <Route path="/Contact" element={<Contact/>}/>
     </Routes>
     </BrowserRouter>
     </>
