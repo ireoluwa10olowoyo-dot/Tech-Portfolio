@@ -9,13 +9,13 @@ function Hero(){
         <div className="flex items-center justify-center  bg-slate-950 h-20 pl-3 text-white">
             <h1 className="mr-200 text-2xl ">Ire Olowoyo</h1>
             <div>
-            <NavLink to="/Hero" className="ml-5 "/>Hero<NavLink/>
-            <NavLink to="/AboutMe" className="ml-5"/>AboutMe<NavLink/>
-            <NavLink to="/Projects" className="ml-5"/>Projects<NavLink/>
-            <NavLink to="/Skills" className="ml-5"/>Skills<NavLink/>
-            <NavLink to="/Experience" className="ml-5"/>Experience<NavLink/>
-            <NavLink to="/Achievements" className="ml-5"/>Achievements<NavLink/>
-            <NavLink to="/Contact" className="mr-5"/>Contact<NavLink/>
+            <NavLink to="/Hero" className="ml-5 ">Hero</NavLink>
+            <NavLink to="/AboutMe" className="ml-5">AboutMe</NavLink>
+            <NavLink to="/Projects" className="ml-5">Projects</NavLink>
+            <NavLink to="/Skills" className="ml-5">Skills</NavLink>
+            <NavLink to="/Experience" className="ml-5">Experience</NavLink>
+            <NavLink to="/Achievements" className="ml-5">Achievements</NavLink>
+            <NavLink to="/Contact" className="mr-5">Contact</NavLink>
             </div>
         </div>
         <div className="bg-slate-900 text-white ">
