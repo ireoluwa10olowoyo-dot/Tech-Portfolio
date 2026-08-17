@@ -11,7 +11,7 @@ function Contact(){
 >
   Email Me
 </a>
-<a href="https://www.linkedin.com/in/ireoluwa-olowoyo-50063b299/"></a>
+<a href="https://www.linkedin.com/in/ireoluwa-olowoyo-50063b299/">Linkedin</a>
         </>
     )
 }
