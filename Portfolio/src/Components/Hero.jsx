@@ -15,20 +15,62 @@ function Hero(){
         {/* LEFT SIDE */}
         <div>
 
-            <div className="flex items-center justify-center  bg-slate-950 h-20 pl-3 text-white">
-            <h1 className="ml-200  text-2xl ">My Portfolio</h1>
-            <div className="ml-200">
-            <NavLink to="/Hero" className="ml-5 rounded-md bg-blue-500 px-6 py-3 font-semibold text-white transition hover:border-blue-600 hover:bg-transparent">Hero</NavLink>
-            <NavLink to="/AboutMe" className="ml-5">AboutMe</NavLink>
-            <NavLink to="/Projects" className="ml-5">Projects</NavLink>
-            <NavLink to="/Skills" className="ml-5">Skills</NavLink>
-            <NavLink to="/Experience" className="ml-5">Experience</NavLink>
-            <NavLink to="/Achievements" className="ml-5">Achievements</NavLink>
-            <NavLink to="/Contact" className="ml-5">Contact</NavLink>
+            <div className="fixed top-0 left-0 w-190 z-0 flex items-center justify-center  bg-slate-950 h-25 pl-16  pb-10  text-white">
+            <h1 className="ml-190  font-bold whitespace-nowrap text-2xl ">Ire's  Portfolio</h1>
+            <div className="ml-130">
+            <NavLink to="/Hero" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Hero</NavLink>
+            <NavLink to="/AboutMe" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>AboutMe</NavLink>
+            <NavLink to="/Projects" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Projects</NavLink>
+            <NavLink to="/Skills" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Skills</NavLink>
+            <NavLink to="/Experience" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Experience</NavLink>
+            <NavLink to="/Achievements" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Achievements</NavLink>
+            <NavLink to="/Contact" className={({ isActive }) =>
+    `ml-7 transition-all duration-200 ${
+      isActive
+        ? "rounded-md bg-blue-500 px-5 py-2 font-semibold text-white hover:bg-blue-600"
+        : "text-white hover:text-blue-400"
+    }`
+  }>Contact</NavLink>
             </div>
         </div>
 
-        <div className="pl-35">
+        <div className="pl-35 pt-30">
           <p className="mb-2 text-gray-300">
             Hi, I am
           </p>
@@ -75,7 +117,7 @@ function Hero(){
 
 
         {/* RIGHT SIDE */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-20">
 
           <img
             src="src/assets/Profile Picture.jpg"
@@ -87,19 +129,19 @@ function Hero(){
           <div className="mt-5 flex gap-5">
 
             <a
-              href="https://github.com/"
+              href="https://github.com/ireoluwa10olowoyo-dot"
               target="_blank"
-              className="text-gray-300 hover:text-orange-500"
+              className="text-gray-400 text-3xl hover:text-white hover:scale-110 transition-all duration-200"
             >
-              GitHub
+              <i class="fa-brands fa-github"></i>
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/ireoluwa-olowoyo-50063b299/"
               target="_blank"
-              className="text-gray-300 hover:text-orange-500"
+              className="text-gray-400 text-3xl hover:text-blue-400 hover:scale-110 transition-all duration-200"
             >
-              LinkedIn
+              <i class="fa-brands fa-linkedin"></i>
             </a>
 
           </div>
