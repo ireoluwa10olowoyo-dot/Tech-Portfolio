@@ -4,7 +4,7 @@ function AboutMe(){
     return(
         <>
         <div className=" bg-slate-950 text-white max-w-8xl px-6 pt-6">
-        <h1 className="text-center text-3xl text-purple-500">About Me</h1>
+        <h1 className="text-center text-4xl text-purple-500 font-bold">About Me</h1>
        <div className="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 md:p-10 mt-5 shadow-lg">
 
       <p className="text-gray-300 text-lg leading-8">
