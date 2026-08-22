@@ -10,12 +10,14 @@ function Achievements(){
     const AchievementCard = ({name, award, event, description, year, participants}) =>{
         return(
             <>
-            <div className="bg-[#08152F] border border-blue-500 rounded-2xl w-100 h-100">
-                <p className="mt-2">{event}</p>
-                <h3 className="text-xl mt-2">{name}</h3>
-                <p>{award}</p>
-                <p className="text-xl mt-15 ">{description}</p>
-                <div className="flex align-center justify-center mt-30 gap-30">
+            <div className="bg-[#08152F] border border-blue-500 rounded-2xl w-100 h-95">
+                <span className="bg-[#142C9E] text-white px-4 rounded-sm font-medium mt-10">
+  {event}
+</span>
+                <h3 className="text-xl mt-6 font-semibold">{name}</h3>
+                <h3 className="text-xl text-blue-400 font-semibold">{award}</h3>
+                <p className="text-lg mt-12 ">{description}</p>
+                <div className="flex align-center justify-center mt-15 gap-30">
                     <p>{year}</p>
                     <p>{participants}</p>
                 </div>
@@ -26,10 +28,10 @@ function Achievements(){
 
      const AchievementSection = ({ achievements }) => {
     return (
-      <div className="mb-10">
+      <div className="mt-15 ml-70">
         
 
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 align-center justify-center">
+        <div className="grid grid-cols-1 gap-70 md:grid-cols-2 lg:grid-cols-3 ">
           {achievements.map((achievement) => (
             <AchievementCard
               key={achievement.name}
