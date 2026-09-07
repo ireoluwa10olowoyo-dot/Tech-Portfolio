@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link, Navigate, NavLink } from 'react-router-dom';
-import {ProfilePicture} from "/src/assets/Profile Picture.jpg"
+import ProfilePicture from "/src/assets/Profile Picture.jpg";
 
 function Hero(){
     return(
