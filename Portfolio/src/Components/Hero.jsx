@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link, Navigate, NavLink } from 'react-router-dom';
-
+import {ProfilePicture} from "/src/assets/Profile Picture.jpg"
 
 function Hero(){
     return(
@@ -120,7 +120,7 @@ function Hero(){
         <div className="flex flex-col items-center mt-20">
 
           <img
-            src="src/assets/Profile Picture.jpg"
+            src={ProfilePicture}
             alt="Ire Olowoyo"
             className="h-80 w-72 rounded-lg border-4 border-gray-300 object-cover shadow-xl"
           />
