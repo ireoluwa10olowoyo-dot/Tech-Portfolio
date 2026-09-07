@@ -1,7 +1,7 @@
-import ProjectCard from "/src/CardComponents/ProjectCard";
-import {Recipe} from "/src/assets/Recipe Website.png"
-import {Glasletsgo} from "/src/assets/GlasLet'sGo.png"
-import {Database} from  "/src/assets/database.jpg"
+import ProjectCard from "../CardComponents/ProjectCard";
+import Recipe from "../assets/Recipe Website.png";
+import GlasLetsGo from "../assets/GlasLet'sGo.png";
+import Database from "../assets/database.jpg";
 
 function Projects() {
   return (
@@ -17,7 +17,7 @@ function Projects() {
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
           <ProjectCard
-            image={Glasletsgo}
+            image={GlasLetsGo}
             title="GlasLet'sgow"
             description="Built a React and TypeScript frontend for discovering events using live weather, event data and AI-powered recommendations. Integrated with backend services capable of surfacing 300+ live events daily and earned an Honourable Mention at GUTS DYHTG 2025."
             framework="React · TypeScript · Vite"
