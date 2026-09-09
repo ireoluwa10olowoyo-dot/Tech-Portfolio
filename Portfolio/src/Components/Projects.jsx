@@ -20,7 +20,7 @@ function Projects() {
             image={GlasLetsGo}
             title="GlasLet'sgow"
             description="Built a React and TypeScript frontend for discovering events using live weather, event data and AI-powered recommendations. Integrated with backend services capable of surfacing 300+ live events daily and earned an Honourable Mention at GUTS DYHTG 2025."
-            framework="React · TypeScript · Vite"
+            framework="React"
             featured={true}
             link="https://github.com/shreyeahhs/GlasLet-sgow"
           />
@@ -38,7 +38,7 @@ function Projects() {
             image={Recipe}
             title="Recipe Sharing Website"
             description="Developed a full-stack Django application with secure authentication, personalised profiles and responsive recipe discovery features. Worked within a 5-person Agile team to build and integrate core platform functionality."
-            framework="Django · Python · JavaScript"
+            framework="Django"
             featured={false}
             link="https://github.com/Shathaalaa/Recipe_Website"
           />
