@@ -45,7 +45,10 @@ function Portfolio() {
 
   return (
     <>
+
+      <section id="hero">
       <Hero />
+      </section>
 
       <section id="about">
         <AboutMe />
