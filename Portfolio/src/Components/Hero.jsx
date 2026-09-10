@@ -15,9 +15,10 @@ function Hero(){
         {/* LEFT SIDE */}
         <div>
 
-            <div className="fixed top-0 left-0 w-190 z-0 flex items-center justify-center  bg-slate-950 h-25 pl-16  pb-10  text-white">
-            <h1 className="ml-190  font-bold whitespace-nowrap text-2xl ">Ire's  Portfolio</h1>
-            <div className="ml-130">
+            <div className="fixed top-0 left-0 w-full z-50 bg-slate-950 text-white">
+              <div className="max-w-1xl mx-auto px-6 h-24 flex items-center justify-between mr-20">
+            <h1 className="mr-90 ml-28  font-bold whitespace-nowrap text-2xl ">Ire's  Portfolio</h1>
+            
             <NavLink to="/Hero" className={({ isActive }) =>
     `ml-7 transition-all duration-200 ${
       isActive

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import resume from "../assets/New_Tech_Resume__.pdf"
 
 function Contact() {
   return (
@@ -22,7 +23,7 @@ function Contact() {
 
             {/* Download CV */}
             <a
-              href="src/assets/New_Tech_Resume__.pdf"
+              href={resume}
               download
               className="
                 mt-7

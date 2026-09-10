@@ -46,31 +46,31 @@ function Portfolio() {
   return (
     <>
 
-      <section id="hero">
+      <section id="hero" className="scroll-mt-28">
       <Hero />
       </section>
 
-      <section id="about">
+      <section id="about" className="scroll-mt-28">
         <AboutMe />
       </section>
 
-      <section id="projects">
+      <section id="projects" className="scroll-mt-28">
         <Projects />
       </section>
 
-      <section id="skills">
+      <section id="skills" className="scroll-mt-28">
         <Skills />
       </section>
 
-      <section id="experience">
+      <section id="experience" className="scroll-mt-28">
         <Experience />
       </section>
 
-      <section id="achievements">
+      <section id="achievements" className="scroll-mt-28"> 
         <Achievements />
       </section>
 
-      <section id="contact">
+      <section id="contact"  className="scroll-mt-28">
         <Contact />
       </section>
     </>
