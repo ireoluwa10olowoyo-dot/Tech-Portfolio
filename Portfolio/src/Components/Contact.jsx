@@ -22,7 +22,7 @@ function Contact() {
 
             {/* Download CV */}
             <a
-              href="src/assets/Tech Resume.pdf"
+              href="src/assets/New_Tech_Resume__.pdf"
               download
               className="
                 mt-7
